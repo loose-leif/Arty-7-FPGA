@@ -4,3 +4,9 @@
 01:14:06 INFO  : Successfully done setting XSCT server connection channel  
 01:14:08 INFO  : Successfully done setting SDK workspace  
 01:14:08 INFO  : Processing command line option -hwspec C:/Users/Chase/Documents/GitHub/Arty-7-FPGA/softcoreShiftPID/softcoreShiftPID.sdk/design_1_wrapper.hdf.
+01:20:21 INFO  : Registering command handlers for SDK TCF services
+01:20:21 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\chase\OneDrive\Documents\GitHub\Arty-7-FPGA\softcoreShiftPID\softcoreShiftPID.sdk\temp_xsdb_launch_script.tcl
+01:20:25 INFO  : XSCT server has started successfully.
+01:20:28 INFO  : Successfully done setting XSCT server connection channel  
+01:20:28 INFO  : Successfully done setting SDK workspace  
+01:20:28 INFO  : Processing command line option -hwspec C:/Users/chase/OneDrive/Documents/GitHub/Arty-7-FPGA/softcoreShiftPID/softcoreShiftPID.sdk/design_1_wrapper.hdf.

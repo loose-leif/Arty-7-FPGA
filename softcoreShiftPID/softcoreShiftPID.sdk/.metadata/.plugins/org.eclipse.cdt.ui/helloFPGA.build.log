@@ -1,4 +1,4 @@
-01:15:21 **** Auto Build of configuration Debug for project helloFPGA ****
+01:21:12 **** Auto Build of configuration Debug for project helloFPGA ****
 make all 
 'Building file: ../src/helloworld.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -13,9 +13,9 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../helloFPGA_bsp/microblaze_0/lib -mlit
 'Invoking: MicroBlaze Print Size'
 mb-size helloFPGA.elf  |tee "helloFPGA.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   2700	    268	   3112	   6080	   17c0	helloFPGA.elf
+   2688	    268	   3108	   6064	   17b0	helloFPGA.elf
 'Finished building: helloFPGA.elf.size'
 ' '
 
-01:15:22 Build Finished (took 436ms)
+01:21:13 Build Finished (took 863ms)
 
