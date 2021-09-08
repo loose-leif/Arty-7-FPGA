@@ -1,9 +1,14 @@
-01:21:12 **** Auto Build of configuration Debug for project helloFPGA ****
+01:23:27 **** Auto Build of configuration Debug for project helloFPGA ****
 make all 
 'Building file: ../src/helloworld.c'
 'Invoking: MicroBlaze gcc compiler'
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../helloFPGA_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../helloFPGA_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
 ' '
 'Building target: helloFPGA.elf'
 'Invoking: MicroBlaze gcc linker'
@@ -17,5 +22,5 @@ mb-size helloFPGA.elf  |tee "helloFPGA.elf.size"
 'Finished building: helloFPGA.elf.size'
 ' '
 
-01:21:13 Build Finished (took 863ms)
+01:23:27 Build Finished (took 639ms)
 
